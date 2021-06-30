@@ -1,0 +1,6 @@
+#Pulling imgage from my docker repository
+docker pull -a dishu12/flask_app
+
+#running the app
+run -d -p 5000:5000 dishu12/flask_app:v1.0
+
